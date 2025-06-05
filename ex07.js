@@ -10,4 +10,6 @@ const people = [
 
 // your code here
 
+const sortedPeople = _.orderBy(people, ["age"], ["desc"])
+
 console.log(sortedPeople); // Expected output: [{ name: 'Jane', age: 30 }, { name: 'John', age: 25 }, { name: 'Jim', age: 20 }]
